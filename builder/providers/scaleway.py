@@ -14,7 +14,7 @@ def generator():
             'id': 'scaleway-' + plan['name'],
             'name': plan['name'],
             'cost': c.convert(plan['price_eur_mo'], 'EUR', 'USD'),
-            'ram': plan['memory_gb'] * 1024,
+            'ram': plan['memory_gb'],
             'storage': plan['storage_gb'],
         }
         yield plan

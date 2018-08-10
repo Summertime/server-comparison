@@ -13,7 +13,7 @@ def generator():
             'id': 'vultr-' + item['VPSPLANID'],
             'name': item['VPSPLANID'],
             'cost': float(item['price_per_month']), # USD/m
-            'ram': float(item['ram']), # MB
+            'ram': float(item['ram'])/1024, # GB
             'storage': float(item['disk']), #GB
         }
         yield item
