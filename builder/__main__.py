@@ -36,6 +36,13 @@ with open(str(build_dir/'index.html'),'w') as f:
         'td[data-type=string]{'
             'text-align:center;'
         '}'
+        'a{'
+            'color:unset;'
+            'text-decoration-style:dotted;'
+        '}'
+        'a:hover{'
+            'text-decoration-style:double;'
+        '}'
     )
     f.write(f'<style>{style}</style>')
     f.write('<table>')
