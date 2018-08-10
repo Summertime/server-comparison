@@ -1,4 +1,4 @@
-import os
+import requests
 
 def generator():
     url = 'https://api.vultr.com/v1/plans/list'
