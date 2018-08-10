@@ -7,4 +7,4 @@ plans = [
     *vultr(),
     *scaleway(),
 ]
-plans.sorted(key=lambda item:item['cost'])
+plans.sort(key=lambda item:item['cost'])
