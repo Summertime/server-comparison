@@ -7,6 +7,37 @@ build_dir.mkdir()
 with open(str(build_dir/'index.html'),'w') as f:
     f.write('<!doctype html>')
     f.write('<title>Server Plans</title>')
+    style = (
+        'body{'
+            'align-items:center;'
+            'display:flex;'
+            'flex-flow:column nowrap;'
+            'font-family:sans-serif;'
+        '}'
+        'table{'
+            'border-collapse:collapse'
+        '}'
+        '.unit{'
+            'font-size:70%;'
+            'opacity:.5;'
+        '}'
+        'td,th{'
+            'padding:0.5em 0.8em;'
+        '}'
+        'td{'
+            'border-top:1px solid #0001;'
+        '}'
+        'tbody tr:first-child td{'
+            'border-top:1px solid #0007;'
+        '}'
+        'td[data-type=float]{'
+            'text-align:right;'
+        '}'
+        'td[data-type=string]{'
+            'text-align:center;'
+        '}'
+    )
+    f.write(f'<style>{style}</style>')
     f.write('<table>')
     f.write('<thead>')
     f.write('<tr>')
