@@ -6,7 +6,7 @@ def generator():
         'Content-Type': 'application/json',
     }
     response = requests.get(url, headers=headers).json()
-    for item in response['sizes'].values():
+    for item in response.values():
         item = {
             'provider': 'Vultr',
             'url': 'https://www.vultr.com/?ref=7171892',
