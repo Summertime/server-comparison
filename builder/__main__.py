@@ -21,6 +21,6 @@ with open(str(build_dir/'index.html'),'w') as f:
         f.write(f'<td data-col=provider data-type=string>{plan["provider"]}')
         f.write(f'<td data-col=name data-type=string><a href="{plan["url"]}">{plan["name"]}</a>')
         f.write(f'<td data-col=cost data-type=float>{plan["cost"]:.2f} <span class=unit>USD</span>')
-        f.write(f'<td data-col=ram data-type=float>{plan["ram"]:.2f} <span class=unit>GB</span>')
-        f.write(f'<td data-col=storage data-type=float>{plan["storage"]:.2f} <span class=unit>GB</span>')
+        f.write(f'<td data-col=ram data-type=float>{plan["ram"]:.0f} <span class=unit>MB</span>')
+        f.write(f'<td data-col=storage data-type=float>{plan["storage"]:.0f} <span class=unit>GB</span>')
     f.write('</table>')
