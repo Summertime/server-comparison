@@ -1,11 +1,8 @@
 import json
 from pathlib import Path
 
-from currency_converter import CurrencyConverter
-c = CurrencyConverter()
-
 def generator():
-    with open(str(Path(__file__).with_name('scaleway.json'))) as f:
+    with open(str(Path(__file__).with_name('digitaloceanjson'))) as f:
         plans = json.load(f)['plans']
     for plan in plans:
         plan = {
