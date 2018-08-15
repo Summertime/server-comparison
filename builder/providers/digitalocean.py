@@ -7,9 +7,9 @@ def generator():
     for plan in plans:
         plan = {
             'provider': 'DigitalOcean',
-            'url': '#',
-            'id': 'do-' + '0',
-            'name': '[unknown]',
+            'url': 'https://m.do.co/c/7b3c321c35ef',
+            'id': 'do-' + plan['name'],
+            'name': plan['name'],
             'cost': plan['price USD/mo'],
             'ram': plan['memory GB'],
             'storage': plan['storage GB'],

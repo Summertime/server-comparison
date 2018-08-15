@@ -10,7 +10,7 @@ def generator():
     for plan in plans:
         plan = {
             'provider': 'Scaleway',
-            'url': '#',
+            'url': 'https://www.scaleway.com/',
             'id': 'scaleway-' + plan['name'],
             'name': plan['name'],
             'cost': c.convert(plan['price_eur_mo'], 'EUR', 'USD'),
