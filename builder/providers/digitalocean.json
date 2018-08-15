@@ -1,130 +1,144 @@
 {
     "plans": [
         {
+            "name": "s-1vcpu-1gb",
             "memory GB": 1,
             "cores": 1,
             "type": "virtual",
             "storage GB": 25,
             "bandwidth TB/mo": 1,
             "price USD/mo": 5,
-            "price USD/hr": 0.007
+            "price USD/hr": 0.007439999841153622
         },
         {
+            "name": "s-1vcpu-2gb",
             "memory GB": 2,
             "cores": 1,
             "type": "virtual",
             "storage GB": 50,
             "bandwidth TB/mo": 2,
             "price USD/mo": 10,
-            "price USD/hr": 0.015
+            "price USD/hr": 0.01487999968230724
         },
         {
+            "name": "s-1vcpu-3gb",
             "memory GB": 3,
             "cores": 1,
             "type": "virtual",
             "storage GB": 60,
             "bandwidth TB/mo": 3,
             "price USD/mo": 15,
-            "price USD/hr": 0.022
+            "price USD/hr": 0.02232000045478344
         },
         {
+            "name": "s-2vcpu-2gb",
             "memory GB": 2,
             "cores": 2,
             "type": "virtual",
             "storage GB": 60,
             "bandwidth TB/mo": 3,
             "price USD/mo": 15,
-            "price USD/hr": 0.022
+            "price USD/hr": 0.02232000045478344
         },
         {
+            "name": "s-3vcpu-1gb",
             "memory GB": 1,
             "cores": 3,
             "type": "virtual",
             "storage GB": 60,
             "bandwidth TB/mo": 3,
             "price USD/mo": 15,
-            "price USD/hr": 0.022
+            "price USD/hr": 0.02232000045478344
         },
         {
+            "name": "s-2vcpu-4gb",
             "memory GB": 4,
             "cores": 2,
             "type": "virtual",
             "storage GB": 80,
             "bandwidth TB/mo": 4,
             "price USD/mo": 20,
-            "price USD/hr": 0.030
+            "price USD/hr": 0.02975999936461449
         },
         {
+            "name": "s-4vcpu-8gb",
             "memory GB": 8,
             "cores": 4,
             "type": "virtual",
             "storage GB": 160,
             "bandwidth TB/mo": 5,
             "price USD/mo": 40,
-            "price USD/hr": 0.060
+            "price USD/hr": 0.05951999872922897
         },
         {
+            "name": "s-6vcpu-16gb",
             "memory GB": 16,
             "cores": 6,
             "type": "virtual",
             "storage GB": 320,
             "bandwidth TB/mo": 6,
             "price USD/mo": 80,
-            "price USD/hr": 0.119
+            "price USD/hr": 0.1190500035881996
         },
         {
+            "name": "s-8vcpu-32gb",
             "memory GB": 32,
             "cores": 8,
             "type": "virtual",
             "storage GB": 640,
             "bandwidth TB/mo": 7,
             "price USD/mo": 160,
-            "price USD/hr": 0.238
+            "price USD/hr": 0.2381000071763992
         },
         {
+            "name": "s-12vcpu-48gb",
             "memory GB": 48,
             "cores": 12,
             "type": "virtual",
             "storage GB": 960,
             "bandwidth TB/mo": 8,
             "price USD/mo": 240,
-            "price USD/hr": 0.357
+            "price USD/hr": 0.3571400046348572
         },
         {
+            "name": "s-16vcpu-64gb",
             "memory GB": 64,
             "cores": 16,
             "type": "virtual",
             "storage GB": 1280,
             "bandwidth TB/mo": 9,
             "price USD/mo": 320,
-            "price USD/hr": 0.476
+            "price USD/hr": 0.4761900007724762
         },
         {
+            "name": "s-20vcpu-96gb",
             "memory GB": 96,
             "cores": 20,
             "type": "virtual",
             "storage GB": 1920,
             "bandwidth TB/mo": 10,
             "price USD/mo": 480,
-            "price USD/hr": 0.714
+            "price USD/hr": 0.7142900228500366
         },
         {
+            "name": "s-24vcpu-128gb",
             "memory GB": 128,
             "cores": 24,
             "type": "virtual",
             "storage GB": 2560,
             "bandwidth TB/mo": 11,
             "price USD/mo": 640,
-            "price USD/hr": 0.952
+            "price USD/hr": 0.9523800015449524
         },
         {
+            "name": "s-32vcpu-192gb",
             "memory GB": 192,
             "cores": 32,
             "type": "virtual",
             "storage GB": 3840,
             "bandwidth TB/mo": 12,
             "price USD/mo": 960,
-            "price USD/hr": 1.429
+            "price USD/hr": 1.428570032119751
         }
     ]
 }
