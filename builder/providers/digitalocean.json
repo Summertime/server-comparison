@@ -1,6 +1,16 @@
 {
     "plans": [
         {
+            "name": "512mb",
+            "memory MB": 0.5,
+            "cores": 1,
+            "type": "virtual",
+            "storage GB": 20,
+            "bandwidth TB/mo": 1,
+            "price USD/mo": 5,
+            "price USD/hr": 0.007439999841153622
+        },
+        {
             "name": "s-1vcpu-1gb",
             "memory GB": 1,
             "cores": 1,
@@ -9,6 +19,16 @@
             "bandwidth TB/mo": 1,
             "price USD/mo": 5,
             "price USD/hr": 0.007439999841153622
+        },
+        {
+            "name": "1gb",
+            "memory GB": 1,
+            "cores": 1,
+            "type": "virtual",
+            "storage GB": 30,
+            "bandwidth TB/mo": 2,
+            "price USD/mo": 10,
+            "price USD/hr": 0.01487999968230724
         },
         {
             "name": "s-1vcpu-2gb",
@@ -51,6 +71,16 @@
             "price USD/hr": 0.02232000045478344
         },
         {
+            "name": "2gb",
+            "memory GB": 2,
+            "cores": 2,
+            "type": "virtual",
+            "storage GB": 40,
+            "bandwidth TB/mo": 3,
+            "price USD/mo": 20,
+            "price USD/hr": 0.02975999936461449
+        },
+        {
             "name": "s-2vcpu-4gb",
             "memory GB": 4,
             "cores": 2,
@@ -59,6 +89,26 @@
             "bandwidth TB/mo": 4,
             "price USD/mo": 20,
             "price USD/hr": 0.02975999936461449
+        },
+        {
+            "name": "4gb",
+            "memory GB": 4,
+            "cores": 2,
+            "type": "virtual",
+            "storage GB": 60,
+            "bandwidth TB/mo": 4,
+            "price USD/mo": 40,
+            "price USD/hr": 0.05951999872922897
+        },
+        {
+            "name": "c-2",
+            "memory GB": 4,
+            "cores": 2,
+            "type": "virtual",
+            "storage GB": 25,
+            "bandwidth TB/mo": 4,
+            "price USD/mo": 40,
+            "price USD/hr": 0.05999999865889549
         },
         {
             "name": "s-4vcpu-8gb",
@@ -71,6 +121,26 @@
             "price USD/hr": 0.05951999872922897
         },
         {
+            "name": "8gb",
+            "memory GB": 8,
+            "cores": 4,
+            "type": "virtual",
+            "storage GB": 80,
+            "bandwidth TB/mo": 5,
+            "price USD/mo": 80,
+            "price USD/hr": 0.1190500035881996
+        },
+        {
+            "name": "c-4",
+            "memory GB": 8,
+            "cores": 4,
+            "type": "virtual",
+            "storage GB": 50,
+            "bandwidth TB/mo": 5,
+            "price USD/mo": 80,
+            "price USD/hr": 0.1190000027418137
+        },
+        {
             "name": "s-6vcpu-16gb",
             "memory GB": 16,
             "cores": 6,
@@ -79,6 +149,26 @@
             "bandwidth TB/mo": 6,
             "price USD/mo": 80,
             "price USD/hr": 0.1190500035881996
+        },
+        {
+            "name": "16gb",
+            "memory GB": 16,
+            "cores": 8,
+            "type": "virtual",
+            "storage GB": 160,
+            "bandwidth TB/mo": 6,
+            "price USD/mo": 160,
+            "price USD/hr": 0.2381000071763992
+        },
+        {
+            "name": "c-8",
+            "memory GB": 16,
+            "cores": 8,
+            "type": "virtual",
+            "storage GB": 100,
+            "bandwidth TB/mo": 6,
+            "price USD/mo": 160,
+            "price USD/hr": 0.2380000054836273
         },
         {
             "name": "s-8vcpu-32gb",
@@ -101,6 +191,26 @@
             "price USD/hr": 0.3571400046348572
         },
         {
+            "name": "32gb",
+            "memory GB": 32,
+            "cores": 12,
+            "type": "virtual",
+            "storage GB": 320,
+            "bandwidth TB/mo": 7,
+            "price USD/mo": 320,
+            "price USD/hr": 0.4761900007724762
+        },
+        {
+            "name": "c-16",
+            "memory GB": 32,
+            "cores": 16,
+            "type": "virtual",
+            "storage GB": 200,
+            "bandwidth TB/mo": 7,
+            "price USD/mo": 320,
+            "price USD/hr": 0.4760000109672546
+        },
+        {
             "name": "s-16vcpu-64gb",
             "memory GB": 64,
             "cores": 16,
@@ -109,6 +219,16 @@
             "bandwidth TB/mo": 9,
             "price USD/mo": 320,
             "price USD/hr": 0.4761900007724762
+        },
+        {
+            "name": "48gb",
+            "memory GB": 48,
+            "cores": 16,
+            "type": "virtual",
+            "storage GB": 480,
+            "bandwidth TB/mo": 8,
+            "price USD/mo": 480,
+            "price USD/hr": 0.7142900228500366
         },
         {
             "name": "s-20vcpu-96gb",
@@ -121,6 +241,26 @@
             "price USD/hr": 0.7142900228500366
         },
         {
+            "name": "64gb",
+            "memory GB": 64,
+            "cores": 20,
+            "type": "virtual",
+            "storage GB": 640,
+            "bandwidth TB/mo": 9,
+            "price USD/mo": 640,
+            "price USD/hr": 0.9523800015449524
+        },
+        {
+            "name": "c-32",
+            "memory GB": 64,
+            "cores": 32,
+            "type": "virtual",
+            "storage GB": 400,
+            "bandwidth TB/mo": 9,
+            "price USD/mo": 640,
+            "price USD/hr": 0.9520000219345093
+        },
+        {
             "name": "s-24vcpu-128gb",
             "memory GB": 128,
             "cores": 24,
@@ -129,6 +269,16 @@
             "bandwidth TB/mo": 11,
             "price USD/mo": 640,
             "price USD/hr": 0.9523800015449524
+        },
+        {
+            "name": "c-48",
+            "memory GB": 72,
+            "cores": 48,
+            "type": "virtual",
+            "storage GB": 20,
+            "bandwidth TB/mo": 5,
+            "price USD/mo": 960,
+            "price USD/hr": 1.429000020027161
         },
         {
             "name": "s-32vcpu-192gb",
