@@ -2,7 +2,7 @@
     "plans": [
         {
             "name": "512mb",
-            "memory MB": 0.5,
+            "memory GB": 0.5,
             "cores": 1,
             "type": "virtual",
             "storage GB": 20,
