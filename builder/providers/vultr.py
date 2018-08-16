@@ -9,6 +9,7 @@ def generator():
     for item in response.values():
         item = {
             'provider': 'Vultr',
+            'provider_slug': 'bultr',
             'url': 'https://www.vultr.com/?ref=7171892',
             'id': 'vultr-' + item['VPSPLANID'],
             'name': item['VPSPLANID'],

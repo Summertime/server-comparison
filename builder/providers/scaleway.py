@@ -9,7 +9,8 @@ def generator():
         plans = json.load(f)['plans']
     for plan in plans:
         plan = {
-            'provider': 'Scaleway',
+            'provider': 'Scaleway<sup>†</sup>',
+            'provider_slug': 'scaleway',
             'url': 'https://www.scaleway.com/',
             'id': 'scaleway-' + plan['name'],
             'name': plan['name'],
