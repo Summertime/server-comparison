@@ -68,5 +68,5 @@ with open(str(build_dir/'index.html'),'w') as f:
     f.write('<dd>Scaleway prices don\'t include IPv4 (+0.99EUR/mo) or additional storage (+1EUR/50GB/mo)')
     f.write('</dl>')
     f.write('<footer>')
-    f.write(f'Last generated at {datetime.utcnow().replace(tz=timezone.utc).isoformat()}')
+    f.write(f'Last generated at {datetime.utcnow().replace(tzinfo=timezone.utc).isoformat()}')
     f.write('</footer>')
